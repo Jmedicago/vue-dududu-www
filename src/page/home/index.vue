@@ -23,17 +23,18 @@
   import "bootstrap/dist/js/bootstrap.min.js";
   import Header from "../../components/header";
   import {swiper, swiperSlide} from "vue-awesome-swiper";
+
   export default {
     data() {
       return {
         swiperOption: {
           // 参数选项,显示小点
           pagination: ".swiper-pagination",
-          //循环
+          // 循环
           loop: true,
-          //每张播放时长3秒，自动播放
-          autoplay: 2000,
-          //滑动速度
+          // 每张播放时长3秒，自动播放
+          autoplay: 5000,
+          // 滑动速度
           speed: 1000,
           // delay:1000
         },
@@ -65,26 +66,34 @@
     border: 1px solid #fff;
     opacity: unset;
     background: unset;
+
   .wrapper >>> .swiper-pagination-bullet-active
     background: #fff
+
   .flash img {
     width: 100%
   }
+
   .flash ul.bxslider {
     list-style: none;
   }
+
   .flash div.bx-pager {
     bottom: 4%;
   }
+
   .flash div.bx-controls-direction {
     display: none;
   }
+
   .img-thumbnail {
     border: none;
   }
+
   .img-thumbnail:hover, .opacity_img:hover {
     opacity: 0.8;
   }
+
   /*大屏幕*/
   @media screen and (min-width: 769px) {
     .flash {

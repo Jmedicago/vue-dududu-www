@@ -39,6 +39,7 @@
 <script>
   import "bootstrap/dist/css/bootstrap.min.css";
   import "bootstrap/dist/js/bootstrap.min.js";
+
   export default {
     data() {
       return {
@@ -111,6 +112,7 @@
     /*margin-top: 35px;*/
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
   }
+
   #app_menudown {
     position: absolute;
     top: 0px;
@@ -118,9 +120,11 @@
     font-size: 16px;
     height: 40px;
   }
+
   #app_menudown:hover {
     background-color: #DA2625;
   }
+
   /*大屏幕*/
   @media screen and (min-width: 769px) {
     .logo {
@@ -128,21 +132,26 @@
       max-width: 346px;
       margin-top: 35px;
     }
+
     .navbar {
       min-height: 95px;
     }
+
     .navbar-nav {
       float: right;
     }
+
     .navbar-nav > li > a {
       text-align: center;
     }
+
     .navbar-default .navbar-nav > li > a {
       padding: 42px 13px 42px 13px;
       color: #fff;
       text-transform: uppercase;
       transition: 0.1s;
     }
+
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus,
     .navbar-default .navbar-nav > li > a.active,
@@ -154,24 +163,29 @@
       background-color: #A30100;
       color: #fff;
     }
+
     .navbar-default .navbar-nav-c > li > a {
       font-size: 16px;
       padding: 42px 16px 42px 16px;
     }
+
     .small-nav {
       min-height: 60px;
       margin-top: 0px;
       border-bottom: 1px solid #F3F3F3;
     }
+
     .small-nav .navbar-nav > li > a {
       padding-top: 20px;
       padding-bottom: 20px;
     }
+
     .small-nav img.logo {
       max-height: 50px;
       margin-top: 20px;
       max-width: 200px;
     }
+
     .nav_small {
       background-color: #fff;
       padding: 10px 0px 10px 0px;
@@ -181,22 +195,27 @@
       font-size: 12px;
       min-width: 135px;
     }
+
     .nav_small > li {
       text-align: center;
     }
+
     .nav_small > li > a {
       line-height: 28px;
       color: #5e5e5e;
       padding-left: 28px;
       padding-right: 28px;
     }
+
     .nav_small > li > a:hover {
       color: #fff;
       background-color: #DA2625;
     }
+
     #app_menudown, #small_search {
       display: none;
     }
+
     .index_left_nav, .footer_nav {
       display: none;
     }
